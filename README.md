@@ -23,6 +23,7 @@ make
 ./server
 ```
 It will print its Process ID (PID) and wait for incoming messages.
+
 3. Send a message from the client (in a different terminal window)
 ```bash
 ./client <server_pid> "Hello, world!"
